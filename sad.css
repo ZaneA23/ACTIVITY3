@@ -1,0 +1,104 @@
+body {
+    background-image: url(img/sad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.nav {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav a:hover{
+    background-color: rgba(40, 224, 34, 0.842);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    position: fixed;
+    float: left;
+}
+
+.embed {
+    padding-top: 100px;
+    padding-left: 80px;
+    position: fixed;
+    height: 50%;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.sad {
+    text-align: center;
+    background: rgba(71, 70, 70, 0);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 10px;
+    color:#ffffffda;
+}
+
+.sad p {
+    padding-bottom: 10px;
+}
+
+.fm {
+    padding: 10px;
+}
+
+.fm a{
+    text-decoration: none;
+    color: rgb(75, 112, 145);
+}
+
+.fm a:hover{
+    font-size: large;
+    color: honeydew;
+}
+
+.lyrics {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.lyrics img{
+    height: 140px;
+    width: 140px;
+    padding-bottom: 30px;
+}
+
+.lyrics img:hover{
+    height: 160px;
+    width: 160px;
+}
+
+.youtube img{
+    height: 180px;
+    width: 230px;
+    padding-bottom: 30px;
+}
+
+.spotify img{
+    height: 160px;
+    width: 160px;
+    padding-bottom: 30px;
+}
+
+.youtube img:hover {
+    height: 200px;
+    width: 250px;
+}
+
+.spotify img:hover {
+    height: 200px;
+    width: 200px;
+}
